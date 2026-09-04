@@ -17,34 +17,55 @@
         color: #222;
     }
 
-    header {
-        background-color: #17365d;
-        color: white;
-        padding: 30px 20px;
-        text-align: center;
-    }
+   header {
+    background: #17365d;
+    color: white;
+    padding: 35px 20px;
+    text-align: center;
+    border-bottom: 5px solid #d9b44a;
+}
 
-    header h1 {
-        margin: 0;
-        font-size: 42px;
-    }
+.masthead {
+    max-width: 1100px;
+    margin: auto;
+}
 
-    header p {
-        margin: 8px 0 0;
-    }
+.eyebrow {
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    font-size: 52px;
+    margin: 5px 0;
+}
+
+.tagline {
+    font-size: 17px;
+    margin: 8px 0 0 0;
+}
 
     nav {
-        background-color: #102640;
-        text-align: center;
-        padding: 12px;
-    }
+    background: #102640;
+    padding: 14px 10px;
+    text-align: center;
+    border-bottom: 1px solid #d9d9d9;
+}
 
     nav a {
-        color: white;
-        text-decoration: none;
-        margin: 0 15px;
-        font-weight: bold;
-    }
+    color: white;
+    text-decoration: none;
+    margin: 0 14px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
 
     main {
         max-width: 850px;
@@ -53,9 +74,11 @@
     }
 
     .article {
-        background-color: white;
-        padding: 35px;
-    }
+    background: white;
+    padding: 35px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
 
     .article h2 {
         font-size: 36px;
@@ -130,8 +153,11 @@
 <body>
 
 <header>
-    <h1>Llais y Bro</h1>
-    <p>Your local student voice</p>
+    <div class="masthead">
+        <p class="eyebrow">CARMARTHENSHIRE • STUDENT JOURNALISM</p>
+        <h1>Llais y Bro</h1>
+        <p class="tagline">Your local student voice</p>
+    </div>
 </header>
 
 <nav>

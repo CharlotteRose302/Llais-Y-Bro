@@ -158,6 +158,22 @@ nav a:hover {
 .featured-article a:hover {
     text-decoration: underline;
 }
+    .featured-image {
+    height: 280px;
+    background: #dfe5eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -35px -35px 25px -35px;
+    border-radius: 8px 8px 0 0;
+    color: #17365d;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.featured-content {
+    max-width: 800px;
+}
 </style>
 ```
 
@@ -196,8 +212,14 @@ nav a:hover {
 
     <h2 class="section-title">Latest News</h2>
 
-    <section class="featured">
-        <article class="featured-article">
+   <section class="featured">
+    <article class="featured-article">
+
+        <div class="featured-image">
+            <span>FEATURED IMAGE</span>
+        </div>
+
+        <div class="featured-content">
             <p class="category">LOCAL</p>
             <h2>Our first story is coming soon</h2>
             <p>
@@ -205,8 +227,10 @@ nav a:hover {
                 our latest local and student news.
             </p>
             <a href="article1.html">Read the story →</a>
-        </article>
-    </section>
+        </div>
+
+    </article>
+</section>
 
     <section class="articles">
 

@@ -117,6 +117,47 @@ nav a:hover {
         padding: 25px;
         margin-top: 50px;
     }
+    .category {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #17365d;
+    margin-bottom: 8px;
+}
+
+.featured {
+    margin-bottom: 25px;
+}
+
+.featured-article {
+    background: white;
+    padding: 35px;
+    border-left: 6px solid #d9b44a;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.featured-article h2 {
+    font-family: Georgia, serif;
+    font-size: 34px;
+    margin: 5px 0 15px 0;
+}
+
+.featured-article p {
+    line-height: 1.6;
+}
+
+.featured-article a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #17365d;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.featured-article a:hover {
+    text-decoration: underline;
+}
 </style>
 ```
 
@@ -144,47 +185,53 @@ nav a:hover {
 
 <main>
 
-```
-<section class="welcome">
-    <h2>Welcome to Llais y Bro</h2>
-    <p>
-        A student-run news publication bringing you stories,
-        issues and events from Carmarthenshire and the surrounding area.
-    </p>
-</section>
-
-<h2 class="section-title">Latest News</h2>
-
-<section class="articles">
-
-    <article class="article">
-        <h3>Our first story is coming soon</h3>
+```<section class="welcome">
+        <p class="category">WELCOME</p>
+        <h2>Welcome to Llais y Bro</h2>
         <p>
-            Llais y Bro is currently getting ready to bring you
-            our latest local and student news.
+            A student-run news publication bringing you stories,
+            issues and events from Carmarthenshire and the surrounding area.
         </p>
-        <a href="article1.html">Read more →</a>
-    </article>
+    </section>
 
-    <article class="article">
-        <h3>Student News</h3>
-        <p>
-            Stories about students, schools and issues
-            affecting young people in our area.
-        </p>
-        <a href="#">Read more →</a>
-    </article>
+    <h2 class="section-title">Latest News</h2>
 
-    <article class="article">
-        <h3>What's happening locally?</h3>
-        <p>
-            Discover interesting events, people and stories
-            from across Carmarthenshire.
-        </p>
-        <a href="#">Read more →</a>
-    </article>
+    <section class="featured">
+        <article class="featured-article">
+            <p class="category">LOCAL</p>
+            <h2>Our first story is coming soon</h2>
+            <p>
+                Llais y Bro is currently getting ready to bring you
+                our latest local and student news.
+            </p>
+            <a href="article1.html">Read the story →</a>
+        </article>
+    </section>
 
-</section>
+    <section class="articles">
+
+        <article class="article">
+            <p class="category">STUDENTS</p>
+            <h3>Student News</h3>
+            <p>
+                Stories about students, schools and issues
+                affecting young people in our area.
+            </p>
+            <a href="#">Read more →</a>
+        </article>
+
+        <article class="article">
+            <p class="category">LOCAL</p>
+            <h3>What's happening locally?</h3>
+            <p>
+                Discover interesting events, people and stories
+                from across Carmarthenshire.
+            </p>
+            <a href="#">Read more →</a>
+        </article>
+
+    </section>
+
 ```
 
 </main>

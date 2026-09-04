@@ -110,6 +110,18 @@
     padding-bottom: 20px;
     margin-bottom: 30px;
 }
+    .article-image {
+    margin: -35px -35px 30px -35px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.article-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
 </style>
 ```
 
@@ -136,6 +148,10 @@
 
 ```
 <article class="article">
+    
+        <div class="article-image">
+        <img src="llandoveryrainbow.jpg" alt="A photograph from Carmarthenshire">
+    </div>
 
     <p class="article-category">LOCAL</p>
 

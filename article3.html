@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Opinion Piece</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        color: #222;
+    }
+
+   header {
+    background: #17365d;
+    color: white;
+    padding: 35px 20px;
+    text-align: center;
+    border-bottom: 5px solid #d9b44a;
+}
+
+.masthead {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.eyebrow {
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    font-size: 52px;
+    margin: 5px 0;
+}
+
+.tagline {
+    font-size: 17px;
+    margin: 8px 0 0 0;
+}
+
+    nav {
+    background: #102640;
+    padding: 14px 10px;
+    text-align: center;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+    nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 14px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+    main {
+        max-width: 850px;
+        margin: 40px auto;
+        padding: 0 20px;
+    }
+
+    .article {
+    background: white;
+    padding: 35px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+    .article h2 {
+        font-size: 36px;
+        margin-top: 0;
+        color: #17365d;
+    }
+
+    .date {
+        color: #666;
+        margin-bottom: 30px;
+    }
+
+    .article p {
+        font-size: 18px;
+        line-height: 1.7;
+    }
+
+    footer {
+        background-color: #102640;
+        color: white;
+        text-align: center;
+        padding: 25px;
+        margin-top: 50px;
+    }
+    .article-category {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #17365d;
+    margin-bottom: 10px;
+}
+
+.article h2 {
+    font-family: Georgia, serif;
+    font-size: 46px;
+    line-height: 1.15;
+    margin: 0 0 15px 0;
+    color: #17365d;
+}
+    
+    .article h3 {
+    font-family: Georgia, serif;
+    font-size: 25px;
+    color: #17365d;
+    margin: 30px 0 10px 0;
+}
+    .back-link {
+    display: inline-block;
+    margin-top: 25px;
+    color: #17365d;
+    font-weight: bold;
+    text-decoration: none;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+    .related-stories {
+    margin-top: 35px;
+    padding-top: 25px;
+    border-top: 1px solid #ddd;
+}
+
+.related-stories h3 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.related-stories a {
+    display: block;
+    color: #17365d;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 12px 0;
+}
+
+.related-stories a:hover {
+    text-decoration: underline;
+}
+
+.article-intro {
+    font-size: 21px !important;
+    line-height: 1.5 !important;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.date {
+    color: #666;
+    font-size: 14px !important;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+    .article-image {
+    margin: -35px -35px 30px -35px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.article-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+    .photo-caption {
+    font-size: 12px !important;
+    color: #666;
+    margin: -20px 0 25px 0;
+    line-height: 1.4 !important;
+}
+    /* Mobile layout */
+
+@media (max-width: 700px) {
+
+    header {
+        padding: 25px 15px;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    .eyebrow {
+        font-size: 10px;
+        letter-spacing: 1.5px;
+    }
+
+    .tagline {
+        font-size: 15px;
+    }
+
+    nav {
+        padding: 10px 5px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 7px;
+        font-size: 13px;
+    }
+
+    main {
+        margin: 25px auto;
+        padding: 0 15px;
+    }
+
+    .article {
+        padding: 20px;
+    }
+
+    .article-image {
+        margin: -20px -20px 20px -20px;
+        height: 220px;
+    }
+
+    .article h2 {
+        font-size: 34px;
+    }
+    
+    .article h3 {
+        font-size: 22px;
+    }
+
+    .article-intro {
+        font-size: 18px !important;
+    }
+
+    .article p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    footer {
+        padding: 20px 15px;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <div class="masthead">
+        <p class="eyebrow">CARMARTHENSHIRE • STUDENT JOURNALISM</p>
+        <h1>Llais y Bro</h1>
+        <p class="tagline">Your local student voice</p>
+    </div>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="local.html">Local</a>
+    <a href="students.html">Students</a>
+    <a href="opinion.html">Opinion</a>
+    <a href="sport.html">Sport</a>
+    <a href="culture.html">Culture</a>
+    <a href="about.html">About</a>
+</nav>
+
+<main>
+<article class="article">
+
+    <div class="article-image">
+    <img src="llandoveryrainbow.jpg" alt="A photograph from Carmarthenshire">
+</div>
+
+<p class="photo-caption">
+    A view from Carmarthenshire. Photo: Llais y Bro.
+</p>
+
+    <p class="article-category">OPINION</p>
+
+    <h2>Article Headline</h2>
+
+    <p class="article-intro">
+        short introduction here
+    </p>
+
+    <p class="date">
+        Published 5 September 2026 · By Llais y Bro
+    </p>
+
+    <p>
+        first paragraph of the article.
+        most important information and explain what has happened.
+    </p>
+
+    <p>
+        more information, context
+        or details about the story.
+    </p>
+
+    <h3>Subheading</h3>
+
+    <p>
+        Continue article here.
+    </p>
+
+    <a class="back-link" href="opinion.html">← Back to Opinion Pieces</a>
+    
+    <div class="related-stories">
+
+    <h3>Related Stories</h3>
+
+    <a href="article1.html">Our First Story</a>
+
+    <a href="local.html">Local News</a>
+
+</div>
+
+</article>
+
+</main>
+
+<footer>
+    <p>© 2026 Llais y Bro</p>
+    <p>Student journalism from Carmarthenshire</p>
+</footer>
+
+</body>
+</html>
